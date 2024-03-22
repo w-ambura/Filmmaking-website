@@ -1,1 +1,90 @@
 
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmmakers Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Filmmakers Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission to support filmmakers.</p>
+    </section>
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Discover helpful resources for both up-and-coming and established filmmakers.</p>
+    </section>
+    <section id="blog">
+        <h2>Latest Articles</h2>
+        <article>
+            <h3>How to Finance Your First Film</h3>
+            <p>Explore different financing options for independent filmmakers.</p>
+        </article>
+        <article>
+            <h3>Tips for Shooting on a Tight Budget</h3>
+            <p>Learn techniques for maximizing resources while filming.</p>
+        </article>
+    </section>
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, feedback, or collaborations.</p>
+    </footer>
+</body>
+</html>
+And the accompanying CSS (styles.css):
+
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
