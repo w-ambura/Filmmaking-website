@@ -62,3 +62,97 @@
     </footer>
 </body>
 </html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.toolbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.toolbar button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+#workingArea {
+    padding: 20px;
+}
+
+#workingArea h2 {
+    margin-bottom: 20px;
+}
+
+#videoContainer, #imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#videoContainer video, #imageContainer img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#formSection {
+    padding: 20px;
+}
+
+#formSection h2 {
+    margin-bottom: 20px;
+}
+
+#applicantForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#applicantForm input[type="text"], #applicantForm input[type="email"], #applicantForm textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#applicantForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
