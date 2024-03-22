@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmmakers Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h1>Welcome to Filmmakers Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+        <button id="uploadBtn">Upload Video</button>
+        <button id="addImgBtn">Add Image</button>
+        <button id="saveBtn">Save Changes</button>
+    </div>
+
+    <!-- Working Area -->
+    <section id="workingArea">
+        <h2>Working Area</h2>
+        <div id="videoContainer">
+            <!-- Video(s) will be inserted here dynamically -->
+        </div>
+        <div id="imageContainer">
+            <!-- Image(s) will be inserted here dynamically -->
+        </div>
+    </section>
+
+    <!-- Form for Applicants -->
+    <section id="formSection">
+        <h2>Application Form</h2>
+        <form id="applicantForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" required></textarea><br><br>
+            <label for="projects">Projects:</label>
+            <input type="text" id="projects" name="projects"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, feedback, or collaborations.</p>
+    </footer>
+</body>
+</html>
